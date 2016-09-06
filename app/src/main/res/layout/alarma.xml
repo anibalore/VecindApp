@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fondo_dia">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:background="#c84e5a77"
+        android:id="@+id/frameLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/button_robo"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_tipo_alarma"
+            android:src="@drawable/boton01"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/button_incendio"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_tipo_alarma"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boton02" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/button_ambulancia"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_tipo_alarma"
+            android:src="@drawable/boton03"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/button_extranos"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/btn_tipo_alarma"
+            android:layout_marginRight="25dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boton04" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/button_gas"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/btn_tipo_alarma"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/boton05"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_tipo_alarma"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boton06" />
+
+
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar_alarma"
+        android:id="@+id/button_cancelar_alarma"
+        android:background="#d31029"
+        android:textColor="#ffffff"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
+        android:layout_marginBottom="80dp"
+        android:textSize="30dp" />
+
+</RelativeLayout>
