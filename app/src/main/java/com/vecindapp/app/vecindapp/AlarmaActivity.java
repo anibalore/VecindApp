@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 /**
  * Created by anibalore on 30-08-16.
+ * VecindApp
  */
 public class AlarmaActivity extends Activity{
     Button font_cancelar_alarma;
